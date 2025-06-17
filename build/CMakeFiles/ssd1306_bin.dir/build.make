@@ -73,15 +73,15 @@ CMakeFiles/ssd1306_bin.dir/main.c.o: CMakeFiles/ssd1306_bin.dir/flags.make
 CMakeFiles/ssd1306_bin.dir/main.c.o: ../main.c
 CMakeFiles/ssd1306_bin.dir/main.c.o: CMakeFiles/ssd1306_bin.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ssd1306_bin.dir/main.c.o"
-	/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc --sysroot=/x-tools/aarch64-unknown-linux-gnu/aarch64-unknown-linux-gnu/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ssd1306_bin.dir/main.c.o -MF CMakeFiles/ssd1306_bin.dir/main.c.o.d -o CMakeFiles/ssd1306_bin.dir/main.c.o -c /app/main.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ssd1306_bin.dir/main.c.o -MF CMakeFiles/ssd1306_bin.dir/main.c.o.d -o CMakeFiles/ssd1306_bin.dir/main.c.o -c /app/main.c
 
 CMakeFiles/ssd1306_bin.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssd1306_bin.dir/main.c.i"
-	/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc --sysroot=/x-tools/aarch64-unknown-linux-gnu/aarch64-unknown-linux-gnu/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /app/main.c > CMakeFiles/ssd1306_bin.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /app/main.c > CMakeFiles/ssd1306_bin.dir/main.c.i
 
 CMakeFiles/ssd1306_bin.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssd1306_bin.dir/main.c.s"
-	/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc --sysroot=/x-tools/aarch64-unknown-linux-gnu/aarch64-unknown-linux-gnu/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /app/main.c -o CMakeFiles/ssd1306_bin.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /app/main.c -o CMakeFiles/ssd1306_bin.dir/main.c.s
 
 # Object files for target ssd1306_bin
 ssd1306_bin_OBJECTS = \

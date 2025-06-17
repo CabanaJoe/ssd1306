@@ -73,29 +73,29 @@ CMakeFiles/ssd1306_shared.dir/ssd1306.c.o: CMakeFiles/ssd1306_shared.dir/flags.m
 CMakeFiles/ssd1306_shared.dir/ssd1306.c.o: ../ssd1306.c
 CMakeFiles/ssd1306_shared.dir/ssd1306.c.o: CMakeFiles/ssd1306_shared.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ssd1306_shared.dir/ssd1306.c.o"
-	/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc --sysroot=/x-tools/aarch64-unknown-linux-gnu/aarch64-unknown-linux-gnu/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ssd1306_shared.dir/ssd1306.c.o -MF CMakeFiles/ssd1306_shared.dir/ssd1306.c.o.d -o CMakeFiles/ssd1306_shared.dir/ssd1306.c.o -c /app/ssd1306.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ssd1306_shared.dir/ssd1306.c.o -MF CMakeFiles/ssd1306_shared.dir/ssd1306.c.o.d -o CMakeFiles/ssd1306_shared.dir/ssd1306.c.o -c /app/ssd1306.c
 
 CMakeFiles/ssd1306_shared.dir/ssd1306.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssd1306_shared.dir/ssd1306.c.i"
-	/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc --sysroot=/x-tools/aarch64-unknown-linux-gnu/aarch64-unknown-linux-gnu/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /app/ssd1306.c > CMakeFiles/ssd1306_shared.dir/ssd1306.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /app/ssd1306.c > CMakeFiles/ssd1306_shared.dir/ssd1306.c.i
 
 CMakeFiles/ssd1306_shared.dir/ssd1306.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssd1306_shared.dir/ssd1306.c.s"
-	/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc --sysroot=/x-tools/aarch64-unknown-linux-gnu/aarch64-unknown-linux-gnu/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /app/ssd1306.c -o CMakeFiles/ssd1306_shared.dir/ssd1306.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /app/ssd1306.c -o CMakeFiles/ssd1306_shared.dir/ssd1306.c.s
 
 CMakeFiles/ssd1306_shared.dir/linux_i2c.c.o: CMakeFiles/ssd1306_shared.dir/flags.make
 CMakeFiles/ssd1306_shared.dir/linux_i2c.c.o: ../linux_i2c.c
 CMakeFiles/ssd1306_shared.dir/linux_i2c.c.o: CMakeFiles/ssd1306_shared.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ssd1306_shared.dir/linux_i2c.c.o"
-	/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc --sysroot=/x-tools/aarch64-unknown-linux-gnu/aarch64-unknown-linux-gnu/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ssd1306_shared.dir/linux_i2c.c.o -MF CMakeFiles/ssd1306_shared.dir/linux_i2c.c.o.d -o CMakeFiles/ssd1306_shared.dir/linux_i2c.c.o -c /app/linux_i2c.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ssd1306_shared.dir/linux_i2c.c.o -MF CMakeFiles/ssd1306_shared.dir/linux_i2c.c.o.d -o CMakeFiles/ssd1306_shared.dir/linux_i2c.c.o -c /app/linux_i2c.c
 
 CMakeFiles/ssd1306_shared.dir/linux_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssd1306_shared.dir/linux_i2c.c.i"
-	/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc --sysroot=/x-tools/aarch64-unknown-linux-gnu/aarch64-unknown-linux-gnu/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /app/linux_i2c.c > CMakeFiles/ssd1306_shared.dir/linux_i2c.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /app/linux_i2c.c > CMakeFiles/ssd1306_shared.dir/linux_i2c.c.i
 
 CMakeFiles/ssd1306_shared.dir/linux_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssd1306_shared.dir/linux_i2c.c.s"
-	/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc --sysroot=/x-tools/aarch64-unknown-linux-gnu/aarch64-unknown-linux-gnu/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /app/linux_i2c.c -o CMakeFiles/ssd1306_shared.dir/linux_i2c.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /app/linux_i2c.c -o CMakeFiles/ssd1306_shared.dir/linux_i2c.c.s
 
 # Object files for target ssd1306_shared
 ssd1306_shared_OBJECTS = \

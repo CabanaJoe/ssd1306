@@ -8,7 +8,7 @@
 #include <sys/ioctl.h>
 #include <linux/i2c-dev.h>
 
-static int file_i2c = 0;
+static int file_i2c = 1;
 
 uint8_t _i2c_init(int i2c, int dev_addr)
 {

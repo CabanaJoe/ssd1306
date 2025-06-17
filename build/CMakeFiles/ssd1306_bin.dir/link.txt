@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/ssd1306_bin.dir/main.c.o -o ssd1306_bin  -Wl,-rpath,/app/build libssd1306_shared.so 
+/x-tools/aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu-gcc --sysroot=/x-tools/aarch64-unknown-linux-gnu/aarch64-unknown-linux-gnu/sysroot CMakeFiles/ssd1306_bin.dir/main.c.o -o ssd1306_bin   -L/app/.  -Wl,-rpath,/app/.:/app/build libssd1306_shared.so 
